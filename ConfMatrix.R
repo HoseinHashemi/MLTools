@@ -46,7 +46,7 @@ ConfMatrix <- function(pred,
   return( list(Accuracy = Accuracy,
                ConfMatrix = tab, 
                RecallMatrix = RecallTab, 
-               PrecisionMatrix =PrecisionTab))
+               PrecisionMatrix = PrecisionTab))
   
 }
 
